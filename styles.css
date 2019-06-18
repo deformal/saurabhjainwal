@@ -239,12 +239,13 @@ margin-top: 20px;
 @media (max-width:1000px)
 {
   .game{
-  font-size:1rem;
+  font-size:2rem;
     
   }
   .secondimg{
     height:100px;
     widht:200px;
+    margin-right:100px;
   }
   .firstimg{
     height:100px;
