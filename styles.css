@@ -241,15 +241,16 @@ width: 620px;
   .game{
 font-size: 2rem;
 margin-top: 10px;
+    margin-left:50px;
 
   }
   #secondimg{
-    height: 300px;
-    width: 400px;
+    height: 200px;
+    width: 300px;
   }
   #firstimg{
-    height: 300px;
-    width: 400px;
+    height: 200px;
+    width: 300px;
   }
 .why{
   font-size: 1.5rem;}
