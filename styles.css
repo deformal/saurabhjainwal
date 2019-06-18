@@ -50,7 +50,6 @@ background-size: cover;
 #skillss {
   text-align: center;
   padding: 7% 15% 10%;
-  background-image: url("tiny-squares.png");
 }
 hr {
   border-style: dotted;
@@ -91,7 +90,6 @@ main .row {
 #hobbiesss{
   padding: 2% 15% 10% 15%;
   text-align: center;
-  background-image: url("tiny-squares.png");
 
 }
 
@@ -155,15 +153,19 @@ main .row {
   margin-top: 200px;
 }
 .about {
-  padding: 15% 15% 15%;
+  padding: 15% 15% 7% 15%;
   text-align: center;
-  background-image: url("tiny-squares.png");
 }
 #aboutme {
 
   font-family: 'Righteous', cursive;
   font-size: 3.4rem;
 
+}
+#game{
+ text-align: center;
+ margin-bottom: 50px;
+ margin-top: 10px;
 }
 .game{
   font-family: 'Righteous', cursive;
@@ -175,9 +177,9 @@ main .row {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 2rem;
   font-weight: lighter;
-  margin-top: 50px;
 text-decoration: none;
   color: black;
+ 
 
 }
 .gamedown:hover{
@@ -186,15 +188,13 @@ text-decoration: none;
 }
 
 #firstimg{
-margin-right: 20px;
-height: 350px;
-width: 520px;
-margin-top: 20px;
+height: 390px;
+width: 620px;
 }
 
 #secondimg{
-  height: 350px;
-  width: 520px;
+  height: 390px;
+  width: 620px;
   margin-top: 20px;
   }
 .hi{
@@ -236,20 +236,20 @@ margin-top: 20px;
   color: lightblue;
 }
 /* mediaquaries */
-@media (max-width:1000px)
+@media (max-width:900px)
 {
   .game{
-  font-size:2rem;
-    
+font-size: 2rem;
+margin-top: 10px;
+
   }
-  .secondimg{
-    height:100px;
-    widht:200px;
-    margin-right:100px;
+  #secondimg{
+    height: 300px;
+    width: 400px;
   }
-  .firstimg{
-    height:100px;
-    widht:200px;
+  #firstimg{
+    height: 300px;
+    width: 400px;
   }
 .why{
   font-size: 1.5rem;}
