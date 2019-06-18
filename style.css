@@ -1,0 +1,15 @@
+div h1{
+  font-family: segoe ui;
+  font-weight: lighter;
+  font-size: 4rem;
+  text-align: center;
+  padding: 5% 1%;
+}
+div {
+  margin-top: 10%;
+}
+.backbutton{
+  width: 5%;
+  text-align: center;
+  margin-left: 50%
+}

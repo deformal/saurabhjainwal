@@ -1,0 +1,279 @@
+
+/* headersection */
+#intro {
+background-image:url("dark-wood.jpg");
+text-align: center;
+padding: 3% 10% 5% 10%;
+background-size: cover;
+}
+.heading1 {
+  color: #ebfffb;
+  font-size: 4rem;
+  padding-top: 8%;
+  font-family: 'Righteous', cursive;
+  font-weight: lighter;
+}
+.heading {
+  color: #ebfffb;
+  font-size: 6rem;
+    font-family: 'Righteous', cursive;
+    font-weight: lighter;
+
+
+}
+.menu {
+  font-size: 1.8rem;
+  color: #ebfffb;
+  font-family: 'Lobster', cursive;
+  font-weight: lighter;
+
+}
+#navbarSupportedContent {
+  margin-left: 40%;
+  background-color:"white";
+}
+
+.navbar {
+  padding-bottom: 14%;
+}
+.image1 {
+  border-radius: 100%;
+  height: 150px;
+  width: 150px;
+
+}
+.nav-item{
+  padding: 0 15px;
+}
+/* headersectionend */
+/* mainsection*/
+#skillss {
+  text-align: center;
+  padding: 7% 15% 10%;
+  background-image: url("tiny-squares.png");
+}
+hr {
+  border-style: dotted;
+  border-bottom: none;
+  border-top-width: 10px;
+  width: 10%;
+}
+
+/* mainsectionend */
+
+/* skillsection */
+.skillheading {
+  font-family: 'Righteous', cursive;
+  font-weight: lighter;
+
+  font-size: 3.2rem;
+}
+.skillimage{
+  height: 130px;
+  width: 130px;
+  border-radius: 100%;
+}
+main .row {
+  padding-bottom: 15%;
+}
+.skillheadings {
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 2rem;
+}
+.skill-2
+{
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-weight: lighter ;
+  font-size:1rem;
+}
+/* skillsectionend */
+/* hobbiesection */
+#hobbiesss{
+  padding: 2% 15% 10% 15%;
+  text-align: center;
+  background-image: url("tiny-squares.png");
+
+}
+
+.hobbies {
+  font-family: 'Righteous', cursive;
+  font-weight: lighter;
+  font-size: 3.2rem;
+}
+.hob {
+  padding-bottom: 15%;
+}
+.card{
+  text-align: center;
+}
+.card-head{
+  font-family: 'Pacifico', cursive;
+}
+.hobbyimg {
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+}
+/* hobbiesectionend */
+/* hiremesection */
+#hireme {
+
+  text-align: center;
+  background-image: url("dark-wood.jpg");
+}
+.carousel-item{
+    padding: 5% 15% 15% 10%;
+    text-align: center;
+}
+.hir {
+  padding-bottom: 10%;
+  border-color: white;
+}
+.why {
+  font-family: 'Montserrat Alternates', sans-serif;
+  padding-bottom: 5%;
+  color: white;
+  font-weight: lighter;
+}
+.why :hover{
+  cursor: pointer;
+}
+.hire {
+  font-family: 'Righteous', cursive;
+  font-size: 4rem;
+  font-weight: lighter;
+  color: powderblue;
+  padding-top: 2%;
+}
+.hire:hover {
+  cursor:default;
+}
+.me {
+  border-radius: 100%;
+  height: 150px;
+  width:150px;
+  margin-top: 200px;
+}
+.about {
+  padding: 15% 15% 15%;
+  text-align: center;
+  background-image: url("tiny-squares.png");
+}
+#aboutme {
+
+  font-family: 'Righteous', cursive;
+  font-size: 3.4rem;
+
+}
+.game{
+  font-family: 'Righteous', cursive;
+  font-weight: lighter;
+  font-size: 3rem;
+  margin-right: 50px;
+}
+.gamedown{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 2rem;
+  font-weight: lighter;
+  margin-top: 50px;
+text-decoration: none;
+  color: black;
+
+}
+.gamedown:hover{
+  color: green;
+  text-decoration:none;
+}
+
+#firstimg{
+margin-right: 20px;
+height: 350px;
+width: 520px;
+margin-top: 20px;
+}
+
+#secondimg{
+  height: 350px;
+  width: 520px;
+  margin-top: 20px;
+  }
+.hi{
+  border-style: dotted;
+  border-bottom: none;
+  border-top-width: 10px;
+  width: 10%;
+  border-color: lightgrey;
+  padding-bottom: 5%;
+}
+.content {
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-weight: normal;
+  font-size: 1.2rem;
+
+
+}
+/* footer */
+#footer {
+
+  padding: 3% 15% 2%;
+  text-align: center;
+  background-image: url("dark-wood.jpg");
+  font-family: 'Righteous', cursive;
+  font-size: 2rem;
+  font-weight: bold;
+  font-weight: lighter;
+  color: white;
+}
+.links {
+  text-decoration: none;
+}
+
+.bottomicons {
+  padding: 3% 2%;
+  color: white;
+}
+.bottomicons:hover {
+  color: lightblue;
+}
+/* mediaquaries */
+@media (max-width:1000px)
+{
+.why{
+  font-size: 1.5rem;}
+.carousel-item{
+  text-align: center;
+}
+hr{
+  border-style: dotted;
+  border-bottom: none;
+  border-top-width: 2px;
+  width: 10%;
+}
+.hob{
+  border-style: dotted;
+  border-bottom: none;
+  border-top-width: 2px;
+  width: 10%;
+}
+.hir{
+  border-style: dotted;
+  border-bottom: none;
+  border-top-width: 2px;
+  width: 10%;
+}
+.hi{
+  border-style: dotted;
+  border-bottom: none;
+  border-top-width: 2px;
+  width: 10%;
+}
+#footer{
+  font-size: 1.2rem;
+}
+.heading{
+  font-size: 4rem;
+}
+.heading1{
+  font-size: 1.5rem;
+}
+}
