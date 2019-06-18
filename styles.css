@@ -238,6 +238,18 @@ margin-top: 20px;
 /* mediaquaries */
 @media (max-width:1000px)
 {
+  .game{
+  font-size:1rem;
+    
+  }
+  .secondimg{
+    height:100px;
+    widht:200px;
+  }
+  .firstimg{
+    height:100px;
+    widht:200px;
+  }
 .why{
   font-size: 1.5rem;}
 .carousel-item{
